@@ -49,3 +49,32 @@ let arrayLength3 = array3.length;
 let make_averege = make_avg(array3, arrayLength3);
 console.log(make_averege)
  */
+
+// 4th problem
+
+/* function odd_even(number){
+  if (number % 2 === 0){
+    let numberCheck = "This is a even number";
+    return numberCheck;
+  } else if (number % 2 !== 0){
+    let numberCheck = "This is a odd number";
+    return numberCheck;
+  }
+}
+
+let checkNumber = odd_even(45);
+console.log(checkNumber);
+ */
+/* 
+function odd_even(number){
+  if (number % 2 === 0){
+    let numberCheck = "This is a even number";
+    console.log(numberCheck);
+  } else if (number % 2 !== 0){
+    let numberCheck = "This is a odd number";
+    console.log(numberCheck);
+  }
+}
+
+odd_even(66) 
+*/
