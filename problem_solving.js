@@ -80,7 +80,7 @@ odd_even(66)
 */
 
 // 5th problem
-/* 
+/*
 let signal = "yellow"
 
 switch (signal) {
@@ -97,3 +97,44 @@ switch (signal) {
     console.log(messege3);
     break;
 } */
+/* 
+// get odd number sum
+
+function getOddNumber(number){
+  let oddElements = [];
+  for(let i = 0; i < number.length; i++){
+    const index = i;
+    const element = number[index];
+    if(element % 2 !== 0){
+      const oddElement = element;
+      oddElements.push(oddElement);
+    }
+  }
+  return oddElements;
+}
+
+// let numberArray = [34, 55, 34, 45, 67, 23, 63];
+
+// let OddNumber = getOddNumber(numberArray)
+
+// console.log(OddNumber);
+
+function getOddNumberAverege(numbers){
+  let sum = 0;
+  for(let i = 0; i < numbers.length; i++){
+    const index = i;
+    const element = numbers[index];
+    sum += element;
+  }
+  const oddNumberAverege = sum / numbers.length;
+  return oddNumberAverege;
+}
+
+const numbers = [45, 64, 63, 66, 643, 345, 653, 32, 64, 64, 64, 423];
+
+const OddNumbers = getOddNumber(numbers);
+
+const getOddNumbersAverege = getOddNumberAverege(OddNumbers)
+
+console.log(getOddNumbersAverege);
+ */
