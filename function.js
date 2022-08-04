@@ -32,7 +32,7 @@ let myDetils = {
 // let myName = myDetils[myName1];
 // console.log(myName)
 
-
+/* 
 let keys = Object.keys(myDetils);
 //console.log(keys);
 
@@ -44,3 +44,4 @@ for(i = 0; i < keys.length; i++){
   let value = values[key];
   console.log(key, value);
 }
+*/
