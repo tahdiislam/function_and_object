@@ -78,3 +78,22 @@ function odd_even(number){
 
 odd_even(66) 
 */
+
+// 5th problem
+/* 
+let signal = "yellow"
+
+switch (signal) {
+  case 'green':
+    const messege1 = "You Should Cross The Road";
+    console.log(messege1);
+    break;
+  case "red" :
+    const messege2 = "You Should Wait until the Signal is Green";
+    console.log(messege2);
+    break;
+  case "yellow":
+    const messege3 = "Wait a Moment";
+    console.log(messege3);
+    break;
+} */
