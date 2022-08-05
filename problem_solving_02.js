@@ -36,3 +36,29 @@ const leapYears = findLeapYear(years);
 console.log(leapYears);
  */
 
+// sum odd number
+/* 
+function findOddSum(numbers){
+	let oddNumbers = [];
+	for (let i = 0; i < numbers.length; i++){
+		let index = i; 
+		let number = numbers[index];
+		if (number % 2 !== 0){
+			let oddNumber = number;
+			oddNumbers.push(oddNumber);
+		}
+	}
+	let oddNumbersSum = 0;
+	for (let i = 0; i < oddNumbers.length; i++){
+		let index = i;
+		let oddNumber = oddNumbers[index];
+		oddNumbersSum += oddNumber;
+	}
+	return oddNumbersSum;
+}
+
+const numbers = [54, 23, 45, 66, 57, 89, 65, 21, 36, 32, 54];
+
+const oddNumbersSum = findOddSum(numbers);
+
+console.log(oddNumbersSum) */
