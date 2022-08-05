@@ -23,3 +23,34 @@ const fahrenhiet = 90;
 const celsicus = fahrenToCel(fahrenhiet);
 
 console.log(celsicus) */
+
+// 3rd problem
+/* 
+function findGrade(score) {
+  if(score >= 80){
+    const grade = 'A+';
+    return grade;
+  }
+  else if (score >= 70){
+    const grade = 'A';
+    return grade;
+  }
+  else if (score >= 60){
+    const grade = 'B';
+    return grade;
+  }
+  else if (score >= 50){
+    const grade = 'C';
+    return grade;
+  }
+  else{
+    const grade = 'Fail'
+    return grade;
+  }
+}
+
+const score = 40;
+const grade = findGrade(score);
+console.log('You got ', grade);
+*/
+
