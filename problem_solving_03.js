@@ -54,3 +54,15 @@ const grade = findGrade(score);
 console.log('You got ', grade);
 */
 
+// 4th problem
+
+// formula = 'A = p(1 + rt)'
+/* 
+function interestWithMain(money, rate, time){
+  const rateOfInterest = rate/100;
+  const finalAmount = money*(1 + (rateOfInterest * time));
+  return finalAmount;
+}
+
+console.log(interestWithMain(75000, 10, 5))
+*/
