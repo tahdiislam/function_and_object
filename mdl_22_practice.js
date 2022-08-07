@@ -1,13 +1,3 @@
-function findLargeNumber(array) {
-  let numArray =  [], 
-  for (var i = 0; i < array.length; i++) {
-    let element = array[i];
-    numArray.push(element);
-  }
-  let numArray2 = Math.min(numArray)
-  return numArray2;
-}
+const array1 = [3434, 3534, 4553421, 34324, 532423, 5234324, 324234, 234234, 2353425, 5234451, 213424, 5424];
 
-const numbars =[64, 54, 59, 16]
-const findLargeNumber = findLargeNumber(numbars);
-console.log(findLargeNumber);
+console.log(Math.min(...array1));
