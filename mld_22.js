@@ -161,3 +161,34 @@ const totalPrice = total(shoppingCard);
 
 console.log(totalPrice)
  */
+
+// multi layer discunt price 
+/* 
+function ticketTotalPrice(ticketQuantity){
+  const first100Rate = 100;
+  const second100Rate = 90;
+  const restTicketRate = 80;
+  if (ticketQuantity <= 100){
+    const ticketPrice = first100Rate * ticketQuantity;
+    return ticketPrice;
+  }
+  else if (ticketQuantity <= 200){
+    const first100TicketPrice = 100 * first100Rate;
+    const restTicketQuantity = ticketQuantity - 100;
+    const restTicketPrice = restTicketQuantity * second100Rate;
+    const ticketTotalPrice = first100TicketPrice + restTicketPrice;
+    return ticketTotalPrice;
+  } else {
+    const first100TicketPrice = 100 * first100Rate;
+    const second100TicketPrice = 100 * second100Rate;
+    const restTicketQuantity = ticketQuantity - 200;
+    const restTicketPrice = restTicketQuantity * restTicketRate;
+    const ticketTotalPrice = first100TicketPrice + second100TicketPrice + restTicketPrice;
+    return ticketTotalPrice;
+  }
+}
+
+const ticketPrice = ticketTotalPrice(10);
+
+console.log(ticketPrice);
+ */
