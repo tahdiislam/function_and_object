@@ -1,9 +1,37 @@
-/* const array1 = [3434, 3534, 4553421, 34324, 532423, 5234324, 324234, 234234, 2353425, 5234451, 213424, 5424];
+// 1st problem
+/* function findWhoIsTheTollest(numbers){
+  let largest = numbers[0];
+  for (let i = 0; i < numbers.length; i++){
+    const index = i;
+    const element = numbers[index];
+    if(element > largest){
+      largest = element;
+    }
+  } return largest;
+}
+const height = [342, 433, 512, 321];
 
-console.log(Math.min(...array1));
+// findWhoIsTheTollest(height)
+const tallest = findWhoIsTheTollest(height);
 
-console.log(Math.round(Math.random()*1000000000000000)) */
+console.log(tallest); */
 
+// find Large number with Math.max()
+/* 
+const numbers = [343, 340, 654, 4, 2323, 34, 343];
+
+const number = Math.max(...numbers)
+
+console.log(number) */
+
+// find the lowest number with Math.min()
+/* 
+const numbers = [343, 340, 654, 40000, 2323, 34, 343];
+
+const number = Math.min(...numbers);
+
+console.log(number)
+ */
 // 2nd problem
 /* 
 const num1 = 3434;
