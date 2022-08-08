@@ -45,3 +45,70 @@ for (let i = 0; i <= 50; i++){
   }
 } 
 */
+
+// problem wood Calculator 
+/* 
+function woodCalculator(chairQuantity, tablequantity, bedQuantity){
+// constant value for table, chair, and bed wood needed
+  const perChairWood = 4;
+  const perTableWood = 15;
+  const perBedWood = 40;
+// main calculation
+  const chairWood = perChairWood * chairQuantity;
+  const tableWood = perTableWood * tablequantity;
+  const bedWood = perBedWood * bedQuantity;
+// total wood needed
+  const totalWood = chairWood + tableWood + bedWood;
+// return value
+  return totalWood;
+}
+
+const totalWood = woodCalculator(10, 2, 2)
+
+console.log(totalWood); 
+*/
+
+// find the chepest phene
+/* 
+const phones = [
+  {name: "Samnung", camera: 16, storage: "64gb", price: 32000, color: "black"},
+  {name: "Walton", camera: 16, storage: "64gb", price: 25000, color: "black"},
+  {name: "Huawei", camera: 16, storage: "64gb", price: 80000, color: "black"},
+  {name: "OnePlus", camera: 16, storage: "64gb", price: 70000, color: "black"},
+  {name: "IPhone", camera: 16, storage: "64gb", price: 90000, color: "black"},
+  {name: "Xaomi", camera: 16, storage: "64gb", price: 30000, color: "black"},
+  {name: "RealMe", camera: 16, storage: "64gb", price: 24000, color: "black"},
+]
+
+function cheapestPhone(phones2){
+  let cheapPrice = phones2[0];
+  for(i = 0; i < phones2.length; i++){
+    const phone = phones2[i];
+    if(phone.price < cheapPrice.price){
+      cheapPrice = phone;
+    }
+  }
+  return cheapPrice;
+}
+
+const cheapestPhone2 = cheapestPhone(phones);
+
+console.log(cheapestPhone2)
+
+// find the expensive phone
+
+function mostExpensivePhone(phone2){
+  let expensivePhone = phone2[0];
+  for (i = 0; i < phone2.length; i++){
+    const phone = phone2[i];
+    if(phone.price > expensivePhone.price){
+      expensivePhone = phone;
+    }
+  }
+  return expensivePhone;
+}
+
+const theMostExpensivePhone = mostExpensivePhone(phones);
+
+console.log(theMostExpensivePhone)
+ */
