@@ -38,3 +38,17 @@ const height2 = 8;
 const volume = volumeOfRectangle(length2, width2, height2);
 console.log(volume);
 */
+/* 
+// swap a variable
+    // with tempo
+let a = 99;
+let b = 567;
+// let temp;
+// temp = a;
+// a = b;
+// b = temp;
+// console.log(a, b)
+    // with destructing
+[a, b] = [b, a];
+console.log(a, b)
+ */
