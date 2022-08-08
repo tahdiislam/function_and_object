@@ -51,4 +51,59 @@ let b = 567;
     // with destructing
 [a, b] = [b, a];
 console.log(a, b)
+*/
+
+// who will get the cake
+/* 
+function getCake(num1, num2, num3){
+  if(num1 > num2 && num1 > num3){
+    const result = "bela will get the cake"
+    return result;
+  } else if (num2 > num1 && num2 > num3){
+    const result = "chinku whill get the cake";
+    return result;
+  } else {
+    const result = "dela will get the cake"
+    return result;
+  }
+}
+
+let bela, chinku, dela;
+bela = 66;
+chinku = 89;
+dela = 50;
+const whoGetTheCake = getCake(bela, chinku, dela)
+console.log(whoGetTheCake)
  */
+  // 2nd 
+/* 
+function getCake(num1, num2, num3){
+  if (num1 < num2 && num1 < num3){
+    return "bela will get the cake"
+  } else if (num2 < num1 && num2 < num3){
+    return "chinku will get the cake"
+  } else {
+    return "dela will get the cake"
+  }
+}
+
+let bela, chinku, dela;
+bela = 66;
+chinku = 89;
+dela = 50;
+const whoGetTheCake = getCake(bela, chinku, dela)
+// console.log(whoGetTheCake)
+ */
+/* 
+let bela, chinku, dela;
+bela = 76;
+chinku = 78;
+dela = 89;
+
+// const getTheCake = Math.max(bela, chinku, dela);
+
+// console.log(getTheCake)
+
+const getTheCake2 = Math.min(bela, chinku, dela);
+
+console.log(getTheCake2) */
