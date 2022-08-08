@@ -112,3 +112,52 @@ const theMostExpensivePhone = mostExpensivePhone(phones);
 
 console.log(theMostExpensivePhone)
  */
+
+// shoping card
+/* 
+const shoppingCard = [
+  {name: 'shoe', price: 1300},
+  {name: 'shirt', price: 800},
+  {name: 'belt', price: 250},
+  {name: 'pant', price: 700},
+];
+
+function totalPrice(products){
+  let sum = 0;
+  for(i = 0; i < products.length; i++){
+    const product = products[i];
+    sum = sum + product.price;
+  }
+  return sum;
+}
+
+const total = totalPrice(shoppingCard);
+
+console.log(total);
+ */
+
+// shopping with quantity 
+/* 
+const shoppingCard = [
+  {name: 'belt', price: 300, quantity: 1},
+  {name: 'shoe', price: 1500, quantity: 2},
+  {name: 'shirt', price: 900, quantity: 4},
+  {name: 'panjabi', price: 1450, quantity: 2},
+  {name: 'pant', price: 1000, quantity: 5},
+];
+
+function total(products){
+  let sum = 0;
+  for(i = 0; i < products.length; i++){
+    const product = products[i];
+    const productTotal = product.price * product.quantity;
+    sum = sum + productTotal;
+  }
+  return sum;
+}
+
+
+const totalPrice = total(shoppingCard);
+
+console.log(totalPrice)
+ */
