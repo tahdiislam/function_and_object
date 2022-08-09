@@ -192,3 +192,19 @@ const ticketPrice = ticketTotalPrice(10);
 
 console.log(ticketPrice);
  */
+
+// handle unexpected function
+
+function add(num1, num2){
+  if( typeof num1 !== "number" || typeof num2 !== "number"){
+    return "please type a number"
+  }
+  return num1 + num2;
+}
+
+const result = add(15, '454');
+console.log(result);
+
+function multifly(num1, num2){
+  
+}
