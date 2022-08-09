@@ -208,3 +208,20 @@ console.log(result);
 function multifly(num1, num2){
   
 } */
+
+// 1st problem
+/* 
+function areaOfTriangle(a, b, c){
+  const s = (a + b + c) / 2;
+  const area = Math.sqrt(s * (s - a) * (s - b) * (s -c));
+  return area;
+}
+
+const a2 = 3;
+const b2 = 4;
+const c2 = 5;
+
+const area2 = areaOfTriangle(a2, b2, c2);
+
+console.log(area2);
+ */
