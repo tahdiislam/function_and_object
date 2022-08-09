@@ -194,7 +194,7 @@ console.log(ticketPrice);
  */
 
 // handle unexpected function
-
+/* 
 function add(num1, num2){
   if( typeof num1 !== "number" || typeof num2 !== "number"){
     return "please type a number"
@@ -207,4 +207,4 @@ console.log(result);
 
 function multifly(num1, num2){
   
-}
+} */
